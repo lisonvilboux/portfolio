@@ -448,7 +448,7 @@ body{
     .fleche{
     left:0;
     top:0;
-    transform: translateY(10px);
+    transform: translateY(8px);
 }
 
     .fleche img{
