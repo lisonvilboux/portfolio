@@ -62,9 +62,21 @@ p {
 }
 
 header{
+    position: relative;
     display:grid;
     grid-template-columns: 348px 782px;
     column-gap:50px;
+}
+.fleche{
+    position:absolute;
+    left:-80px;      
+    top: 15%;      
+    display:flex;
+    align-items:center;
+}
+.fleche img{
+    width:50px;
+    height:auto;
 }
 
 .section{
@@ -356,6 +368,24 @@ body{
     grid-template-columns: 30% 1fr;
     column-gap:30px;
   }
+  header{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+  }
+  .titre{
+        padding-left:60px;
+    }
+
+    .fleche{
+        left:0;
+        top:10%;
+    }
+
+    .fleche img{
+        width:40px;
+    }
 
   .description,
   .text{
@@ -406,10 +436,23 @@ body{
   }
 
   header{
+    position:relative;
     display:flex;
     flex-direction:column;
     gap:20px;
   }
+  .titre{
+        padding-left:45px;
+    }
+
+    .fleche{
+        left:0;
+        top:4%;
+    }
+
+    .fleche img{
+        width:28px;
+    }
 
   .description,
   .text{
