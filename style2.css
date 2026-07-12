@@ -69,10 +69,9 @@ header{
 }
 .fleche{
     position:absolute;
-    left:-80px;      
-    top: 15%;      
-    display:flex;
-    align-items:center;
+    left:-80px;
+    top:0;
+    transform: translateY(15px);
 }
 .fleche img{
     width:50px;
@@ -379,8 +378,9 @@ body{
     }
 
     .fleche{
-        left:0;
-        top:10%;
+    left:0;
+    top:0;
+    transform: translateY(18px);
     }
 
     .fleche img{
@@ -446,9 +446,10 @@ body{
     }
 
     .fleche{
-        left:0;
-        top:4%;
-    }
+    left:0;
+    top:0;
+    transform: translateY(10px);
+}
 
     .fleche img{
         width:28px;
